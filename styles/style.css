@@ -38,6 +38,18 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.header-primary{
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.header-secondary{
+    font-family: Inter;
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
 /* Nav Bar Related Styles */
 nav {
     max-width: 1060px;
@@ -73,6 +85,11 @@ nav > h2 {
 .hamburger-menu {
     display: none;
 }
+
+
+
+
+
 
 /* Banner Related styles */
 .banner-container {
@@ -111,17 +128,16 @@ nav > h2 {
     border-radius: 42px;
 }
 
-
-
-
 .img-card-container{
     margin-top: 22px;
     position: relative;
     /* border: 2px solid green; */
 }
+
 .card-content{
     margin: 20px 23px 20px 12px;
 }
+
 .card-content > h4 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -164,4 +180,66 @@ nav > h2 {
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
+}
+
+
+
+
+/* Habits section related styles */
+
+.habit-container{
+    max-width: 1050px;
+    height: 450px ;
+    /* border: 2px solid slateblue; */
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.habit-cards-container{
+    display: flex;
+}
+.habit-text{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.habit-card{
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-card > img{
+    border-radius: 50%;
+}
+
+
+/* Run Section styles */
+.run-container{
+    max-width: 1050px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    /* border: 2px solid fuchsia; */
+}
+.run-text-container{
+    max-width: 450px;
+    /* border: 2px solid teal; */
+}
+.run-text-container > h4{
+    margin-bottom: 15px;
+}
+.run-text-container > p{
+    margin-bottom: 35px;
+}
+.run-img-container {
+    max-width: 365px;
+    height: 310px;
+    /* border: 2px solid firebrick; */
+}
+.run-img-container > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }

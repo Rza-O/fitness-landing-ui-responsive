@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+    /* Nav And Banner responsive codes */
     header{
         width: 395px;
         min-height: 1000px;
@@ -55,4 +56,28 @@
         top: 30%;
         left: 40%;
     }
+
+
+
+
+
+    /* Habit section responsive codes */
+    .habit-container{
+        margin-top: 0px;
+    }
+    .habit-cards-container{
+        flex-direction: column;
+    }
+    .habit-card{
+        margin-top: 40px;
+    }
+
+
+
+
+
+    /* Run responsive */
+
+
+
 }
