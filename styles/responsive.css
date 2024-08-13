@@ -1,11 +1,58 @@
 @media screen and (max-width: 576px) {
+    header{
+        width: 395px;
+        min-height: 1000px;
+        /* border: 2px solid red; */
+    }
     nav{
-        padding: 50px 20px 50px 20px;
+        /* border: 2px solid aqua; */
     }
     .nav-btn-container{
         display: none;
     }
     .hamburger-menu{
         display: block;
+    }
+    .banner-container{
+        width: 100%;
+        flex-direction: column;
+        /* border: 2px solid green; */
+    }
+    .banner-content{
+        margin-top: 50px;
+        /* border: 2px solid green; */
+    }
+
+    .banner-btn-container{
+        display: flex;
+    }
+    .banner-btn-container > btn{
+        font-weight: 400;
+    }
+    .img-card-container{
+        width: 353px;
+        height: 580px;
+        margin: 0 auto;
+        margin-top: 50px;
+        /* border: 2px solid gold; */
+    }
+    .img-card-container > img{
+        /* border: 2px solid blue; */
+        /* width: 100%; */
+        height: auto;
+        
+    }
+
+    .banner-card-one{
+        /* width: 155px;
+        height: 72px; */
+        top: 70%;
+        right: 45%;
+    }
+    .banner-card-two{
+        /* width: 145px;
+        height: 74px; */
+        top: 30%;
+        left: 40%;
     }
 }
