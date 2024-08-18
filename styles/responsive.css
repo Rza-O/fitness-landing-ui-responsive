@@ -2,7 +2,7 @@
     /* Nav And Banner responsive codes */
     header{
         width: 100%;
-        margin-left: 7%;
+        /* margin-left: 7%; */
         /* margin: 0 auto; */
         /* min-height: 1000px; */
         /* border: 2px solid red; */
@@ -146,7 +146,7 @@
     /* Footer Section starts here */
     footer{
         width: 100%;
-        margin-left: 25px;
+        /* margin-left: 25px; */
     }
     .footer-texts{
         flex-direction: column;
