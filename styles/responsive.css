@@ -2,10 +2,6 @@
     /* Nav And Banner responsive codes */
     header{
         width: 100%;
-        /* margin-left: 7%; */
-        /* margin: 0 auto; */
-        /* min-height: 1000px; */
-        /* border: 2px solid red; */
     }
     nav{
         width: 100%;
@@ -19,11 +15,9 @@
     .banner-container{
         width: 100%;
         flex-direction: column;
-        /* border: 2px solid green; */
     }
     .banner-content{
         margin-top: 50px;
-        /* border: 2px solid green; */
     }
 
     .banner-btn-container{
@@ -34,16 +28,13 @@
         font-weight: 400;
     }
     .img-card-container{
-        /* width: 353px; */
         width: 100%;
         height: 580px;
         margin: 0 auto;
         margin-top: 50px;
-        /* border: 2px solid gold; */
     }
     .img-card-container > img{
-        /* border: 2px solid blue; */
-        /* width: 100%; */
+
         height: auto;
         
     }
@@ -52,7 +43,6 @@
         height: 75px;
     }
     .rounded-circle{
-        /* padding-left: 50px; */
         margin-left: 10px;
     }
 
@@ -63,11 +53,8 @@
         right: 45%;
     }
     .banner-card-two{
-        /* width: 145px;
-        height: 74px; */
         top: 30%;
         left: 40%;
-        /* padding: 10px 15px 20px 15px; */
     }
     .card-content > p{
         font-size: 9px;
@@ -96,13 +83,11 @@
 
     /* Run responsive */
     .run-container{
-        /* width: 100%; */
         height: auto;
         margin-left: 20px;
         margin-right: 20px;
         padding: 31px 33px 35px 33px;
         flex-direction: column;
-        /* border: 2px solid red; */
     }
     .run-img-container{
         margin-top: 30px;
@@ -118,7 +103,6 @@
         margin-bottom: 40px;
     }
     .bmi-calculator-container{
-        /* margin: 0 auto; */
         width: 100%;
         padding: 10px 22px;
         text-align: left;
@@ -146,15 +130,9 @@
     /* Footer Section starts here */
     footer{
         width: 100%;
-        /* margin-left: 25px; */
     }
     .footer-texts{
         flex-direction: column;
-        /* justify-content: left; */
-        /* align-items: end; */
-        /* text-align: left; */
-        /* border: 2px solid gold;
-        width: 350px; */
     }
     .bookmark-one{
         margin-top: 30px;
