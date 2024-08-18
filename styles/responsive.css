@@ -143,4 +143,24 @@
         grid-template-columns: repeat(1,1fr);
     }
 
+    /* Footer Section starts here */
+    footer{
+        width: 100%;
+        margin-left: 25px;
+    }
+    .footer-texts{
+        flex-direction: column;
+        /* justify-content: left; */
+        /* align-items: end; */
+        /* text-align: left; */
+        /* border: 2px solid gold;
+        width: 350px; */
+    }
+    .bookmark-one{
+        margin-top: 30px;
+    }
+    .bookmark-two{
+        margin-top: 30px;
+    }
+
 }

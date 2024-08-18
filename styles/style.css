@@ -373,7 +373,7 @@ nav > h2 {
 
 /* Footer Section styles here */
 footer{
-    /* width: 100%; */
+    width: 100%;
     min-height: 490px;
     background: rgba(255, 255, 255, 0.1);
     /* border: 2px solid maroon; */
@@ -384,6 +384,7 @@ footer{
     max-width: 1060px;
     min-height: 250px;
     margin: 0 auto;
+    margin-top: 65px;
     /* border: 2px solid sienna; */
     display: flex;
     justify-content: space-evenly;
@@ -392,12 +393,13 @@ footer{
 }
 .footer-header-text{
     max-width: 445px;
+    /* margin-top: 65px; */
     /* border: 2px solid rgb(230, 83, 60); */
 }
 .footer-header-text > h2{
     font-style: italic;
     font-size: 4.37rem;
-    /* color: rgb(230, 83, 60); */
+    color: rgb(230, 83, 60);
     margin-bottom: 20px;
 }
 .bookmark-one{
@@ -420,7 +422,7 @@ footer{
     /* border: 2px solid fuchsia; */
 }
 footer > hr{
-    width: 1060px;
+    max-width: 1060px;
     margin: 0 auto;
     border-color: rgba(255, 255, 255, 0.1);
     
