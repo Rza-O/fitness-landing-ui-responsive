@@ -94,4 +94,29 @@
     }
 
 
+    /* BMI calculator responsive */
+    .claculator-heading-text > h4{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .bmi-chart{
+        margin-bottom: 40px;
+    }
+    .bmi-calculator-container{
+        /* margin: 0 auto; */
+        width: 100%;
+        padding: 10px 22px;
+        text-align: left;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bmi-chart > h2{
+        padding-top: 10px;
+    }
+    .bmi-form input{
+        width: 90%;
+    }
+    calculate
+
 }

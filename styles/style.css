@@ -283,7 +283,7 @@ nav > h2 {
     min-height: 487px;
     margin: 0 auto;
     background: rgb(34, 34, 34);
-    padding: auto;
+    /* padding: auto; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
